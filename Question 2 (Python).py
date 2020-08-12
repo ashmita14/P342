@@ -34,3 +34,14 @@ for i in range(0,3):
     print(D[i], end=" ")
 print("]")
 print( )
+
+
+
+######OUTPUT####### (directly copy pasted from the run window)
+#Vector A = [ 3 8 7 ]
+#
+#Vector B = [ 5 2 9 ]
+#
+#Sum of A and B = [ 8 10 16 ]
+#
+#Dot product of A and B = [ 15 16 63 ]
