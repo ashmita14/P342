@@ -42,7 +42,7 @@ print("Matrix M",  cross, " N : ")
 print('\n'.join([''.join(['{:6}'.format(item) for item in row]) for row in MN]))
 
 
-######OUTPUT####### (directly copy pasted from the run window)
+######OUTPUT####### (directly copy pasted from the run window and converted to comment using #)
 #Matrix M : 
 #    -2     4     9
 #     6     1    -5
