@@ -39,4 +39,5 @@ return 0;
 Vector A : [3 8 7 ]
 Vector B : [5 2 9 ]
 Sum of A and B : [8 10 16 ]
+Dot product of A and B = 94
 */
