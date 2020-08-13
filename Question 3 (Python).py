@@ -40,3 +40,24 @@ for i in range(3):
     #
 print("Matrix M",  cross, " N : ")
 print('\n'.join([''.join(['{:6}'.format(item) for item in row]) for row in MN]))
+
+
+######OUTPUT####### (directly copy pasted from the run window)
+#Matrix M : 
+#    -2     4     9
+#     6     1    -5
+#     3     0     2
+#Matrix N : 
+#    -4     7    10
+#    13     0     9
+#     6     2    -1
+#Matrix M ✖  A : 
+#    89
+#    -9
+#    23
+#Matrix M ✖  N : 
+#   114     4     7
+#   -41    32    74
+#     0    25    28
+#
+#Process finished with exit code 0
