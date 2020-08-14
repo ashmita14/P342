@@ -37,3 +37,11 @@ int main(){
 	cout<<"Average distance = "<<avgdis<<endl;
 }
 	
+
+
+/* OUTPUT (directly copy pasted from run window)
+Number of points in 6x6 grid = 36
+Number of pairs possible = 1296
+Total distance = 5040
+Average distance = 3.88889
+*/
