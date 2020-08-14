@@ -1,4 +1,4 @@
-#Question 1b
+#Question 1b : consider a 6 cross 6 grid
 
 cross="\u2716"
 #given number of points in a row = 6, we consider a 6 cross 6 grid
