@@ -30,3 +30,12 @@ int main(){
 	cout<<"Total distance = "<<totdis<<endl;
 	cout<<"Average Distance = "<< avgdis<<endl;
 }
+
+
+
+/* OUTPUT (directly copy pasted from run window)
+Number of points in a line = 6
+Total number of pairs possible = 36
+Total distance = 70
+Average Distance = 1.94444
+*/
