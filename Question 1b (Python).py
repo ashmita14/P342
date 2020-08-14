@@ -25,3 +25,13 @@ print(f'Number of elements in {N} {cross} {N} matrix = {NN}')
 print(f'Total number of pairs possible = {totp}')
 print(f'Total Distance = {totdis}')
 print(f'Average Distance = {avgdis}')
+
+
+
+####### OUTPUT ########## (directly copy pasted from run window)
+#Number of elements in 6 ✖ 6 matrix = 36
+#Total number of pairs possible = 1296
+#Total Distance = 5040
+#Average Distance = 3.888888888888889
+#
+#Process finished with exit code 0
