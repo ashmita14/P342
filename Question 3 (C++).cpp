@@ -112,3 +112,25 @@ for(i=0;i<3;i++){
 	cout<<endl;
 }
 }
+
+
+
+
+/* OUTPUT (directly copy pasted directly from the run window)
+ Matrix M :
+        -2              4               9
+        6               1               -5
+        3               0               2
+ Matrix N :
+        -4              7               10
+        13              0               9
+        6               2               -1
+ Matrix MxA :
+        89
+        -9
+        23
+ Matrix MxN :
+        114             4               7
+        -41             32              74
+        0               25              28
+/*
