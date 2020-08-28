@@ -80,3 +80,29 @@ for i in range(n):
     if Aug[i][i]!=0: print(f'x{i+1} = {Aug[i][n]}')
     else: print(f'x{i} has arbitrary values.')
     #
+
+    
+    
+####### OUTPUT ########## (DIRECTLY COPY PASTED FROM RUN WINDOW)
+#System of equations to solve :
+# x+3y+2z = 2 
+# 2x+7y+7z = -1 
+# 2x+5y+2z = 7
+#Writing it as an augmented matrix :
+#     1     3     2     2
+#     2     7     7    -1
+#     2     5     2     7
+#After partial pivoting : 
+#     1     3     2     2
+#     2     7     7    -1
+#     2     5     2     7
+#After application of Gauss-Jordan method, augmented matrix becomes : 
+#   1.0   0.0   0.0   3.0
+#   0.0   1.0   0.0   1.0
+#   0.0   0.0   1.0  -2.0
+#Thus, we can write the result as (writing x, y and z respectively as x1,x2 and x3) : 
+#x1 = 3.0
+#x2 = 1.0
+#x3 = -2.0
+#
+#Process finished with exit code 0
