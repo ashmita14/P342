@@ -1,4 +1,4 @@
-#Question 2
+#Question 3
 #Matrix A :
 #  1 -3  7
 # -1 4  -7
@@ -128,4 +128,37 @@ for i in range(n):
 #checking if inverse obtained is correct
 if AA_1==I: print(f'The multiplication matrix obtained is equal to the {n}{cross}{n} Identity matrix, thus the inverse computed by Gauss-Jordan method is correct.')
 else: print("The inverse coputed by Gauss-Jordan method is incorrect.")
+
+    
+    
+    
+ 
+######### OUTPUT ############ (DIRECTLY COPY PASTED FROM RUN WINDOW)
+#The Matrix A : 
+#     1    -3     7
+#    -1     4    -7
+#    -1     3    -6
+#Augmented Matrix : 
+#     1    -3     7     1     0     0
+#    -1     4    -7     0     1     0
+#    -1     3    -6     0     0     1
+#After partial pivoting of Augmented Matrix : 
+#     1    -3     7     1     0     0
+#    -1     4    -7     0     1     0
+#    -1     3    -6     0     0     1
+#Augmented matrix after Gauss-Jordan Elimination : 
+#   1.0   0.0   0.0  -3.0   3.0  -7.0
+#   0.0   1.0   0.0   1.0   1.0   0.0
+#   0.0   0.0   1.0   1.0   0.0   1.0
+#Inverse Obtained by Gauss-Jordan Process : 
+#  -3.0   3.0  -7.0
+#   1.0   1.0   0.0
+#   1.0   0.0   1.0
+#Matrix obtained after multiplication : 
+#   1.0   0.0   0.0
+#   0.0   1.0   0.0
+#   0.0   0.0   1.0
+#The multiplication matrix obtained is equal to the 3✖3 Identity matrix, thus the inverse computed by Gauss-Jordan method is correct.
+#
+#Process finished with exit code 0
 
