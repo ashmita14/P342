@@ -1,5 +1,5 @@
 #Question 2
-# 2y+5z=1
+#2y+5z=1
 #3x-1y+2z=-2
 #x-1y+3z=3
 
@@ -80,3 +80,29 @@ for i in range(n):
     if Aug[i][i]!=0: print(f'x{i+1} = {Aug[i][n]}')
     else: print(f'x{i} has arbitrary values.')
     #
+
+    
+    
+########### OUTPUT ############ (DIRECTLY COPY PASTED FROM RUN WINDOW)
+#System of equations to solve :
+# 2y+5z = 1 
+# 3x-y+2z = -2 
+# x-y+3z = 3
+#Writing it as an augmented matrix :
+#     0     2     5     1
+#     3    -1     2    -2
+#     1    -1     3     3
+#After partial pivoting : 
+#     3    -1     2    -2
+#     0     2     5     1
+#     1    -1     3     3
+#After application of Gauss-Jordan method, augmented matrix becomes : 
+#   1.0   0.0   0.0  -2.0
+#     0   1.0   0.0  -2.0
+#   0.0   0.0   1.0   1.0
+#Thus, we can write the result as (writing x, y and z respectively as x1,x2 and x3) : 
+#x1 = -2.0
+#x2 = -2.0
+#x3 = 1.0
+#
+#Process finished with exit code 0
