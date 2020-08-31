@@ -6,7 +6,7 @@
 n=3  #dimension of square matrix, ie n cross n matrix
 
 #function for partial pivoting
-def partial(x):
+def partial_pivot(x):
     for i in range(0,n-1): #loops from 0 to n-2,i.e., upto second last row
         if x[i][i]==0:
             val=0 #will use val to swap rows
@@ -41,7 +41,7 @@ def partial(x):
 
 #function for gauss jordan
 def gauss_jordan(x):
-    partial(x); #partial pivoting
+    partial_pivot(x); #partial pivoting
     for i in range(n): #loops from 0 t n-1
         pivot=x[i][i]
         if pivot!=0:
@@ -68,7 +68,7 @@ print(f' 2y+5z = 1 \n 3x-y+2z = -2 \n x-y+3z = 3')
 print("Writing it as an augmented matrix :")
 print('\n'.join([''.join(['{:6}'.format(item) for item in row]) for row in Aug]))
 #driver code, calling function for partial pivoting
-partial(Aug);
+partial_pivot(Aug);
 print("After partial pivoting : ")
 print('\n'.join([''.join(['{:6}'.format(item) for item in row]) for row in Aug]))
 #driver code, calling function for gauss-jordan method
