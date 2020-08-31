@@ -8,7 +8,7 @@ n=3  #dimension of square matrix, ie n cross n matrix
 cross="\u2716" #cross symbol
 
 #function for partial pivoting
-def partial(x):
+def partial_pivot(x):
     for i in range(0,n-1): #loops from 0 to n-2,i.e., upto second last row
         if x[i][i]==0:
             val=0 #will use val to swap rows
@@ -43,7 +43,7 @@ def partial(x):
 
 #function for gauss jordan
 def gauss_jordan(x):
-    partial(x); #partial pivoting
+    partial_pivot(x); #partial pivoting
     for i in range(n): #loops from 0 t n-1
         pivot=x[i][i]
         if pivot!=0:
@@ -96,7 +96,7 @@ for i in range(n): #rows
 print("Augmented Matrix : ")
 print('\n'.join([''.join(['{0:6}'.format(item) for item in row])for row in Aug]))
 #calling function for partial pivoting of augmented matrix
-partial(Aug);
+partial_pivot(Aug);
 print("After partial pivoting of Augmented Matrix : ")
 print('\n'.join([''.join(['{0:6}'.format(item) for item in row])for row in Aug]))
 #calling function for gauss-jordan method
