@@ -5,9 +5,10 @@
 #x_1+2x_2-x_3=-2
 #2x_1+x_2+3x_3-2x_4=0
 
+#importing python file containing all functions
 import sys
 sys.path.append('C:/ASHMITA/NISER Study/5th Semester/P342 - Computational Lab/APanda_Lib') #path of personal code library
-import lineareqns #importing python file containing all functions
+import lineareqns 
 
 def LU_decomposition(x): #Using Crout's method
     n=len(x) #no. of rows
@@ -105,3 +106,52 @@ print('\n'.join(['{0:6}'.format(item) for item in X]))
 print('Thus, we can write :')
 for i in range(n):
     print(f'x_{i+1} = {X[i]}')
+
+    
+    
+####### OUTPUT ######## (DIRECTLY COPY PASTED FROM RUN WINDOW)
+#The system of equations to solve : 
+# x_1+x_3+2x_4 = 6 
+# x_2-2x_3 = -3 
+# x_1+2x_2-x_3 = -2 
+#2x_1+x_2+3x_3-2x_4 = 0
+#The matrix A :
+#     1     0     1     2
+#     0     1    -2     0
+#     1     2    -1     0
+#     2     1     3    -2
+#The Matrix B : 
+#     6
+#    -3
+#    -2
+#     0
+#The Matrix L :
+#  1.0  0.0  0.0  0.0
+#
+#  0.0  1.0  0.0  0.0
+#
+#  1.0  2.0  1.0  0.0
+#
+#  2.0  1.0  1.5  1.0
+#
+#The Matrix U :
+#  1.0  0.0  1.0  2.0
+#
+#  0.0  1.0 -2.0  0.0
+#
+#  0.0  0.0  2.0 -2.0
+#
+#  0.0  0.0  0.0 -3.0
+#
+#The Solution Matrix X : 
+#  1.0
+#  -1.0
+#   1.0
+#   2.0
+#Thus, we can write :
+#x_1 = 1.0
+#x_2 = -1.0
+#x_3 = 1.0
+#x_4 = 2.0
+#
+#Process finished with exit code 0
