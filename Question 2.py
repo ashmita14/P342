@@ -140,3 +140,47 @@ for i in range(n):
     #
 print('A Inverse :')
 print('\n'.join([''.join(['{0:8}'.format(round(item, 3)) for item in row])for row in inv_A]))
+
+
+
+########## OUTPUT ########## (COPY PASTED DIRECTLY FROM RUN WINDOW)
+#The Matrix A :
+#     0     2     8     6
+#     0     0     1     2
+#     0     1     0     1
+#     3     7     1     0
+#Augmented Matrix after partial pivot :
+#     3     7     1     0     0     0     0     1
+#     0     2     8     6     1     0     0     0
+#     0     0     1     2     0     1     0     0
+#     0     1     0     1     0     0     1     0
+#
+#After LU Decomposition : 
+#The Matrix L :
+#  1.0  0.0  0.0  0.0
+#
+#  0.0  1.0  0.0  0.0
+#
+#  0.0  0.0  1.0  0.0
+#
+#  0.0  0.5 -4.0  1.0
+#
+#The Matrix U :
+#  3.0  7.0  1.0  0.0
+#
+#  0.0  2.0  8.0  6.0
+#
+#  0.0  0.0  1.0  2.0
+#
+#  0.0  0.0  0.0  6.0
+#
+#The value of determinant is = 36.0 
+# As it is not equal to zero, inverse of matrix A exists.
+#A Inverse :
+#   -0.25   1.667  -1.833   0.333
+#   0.083  -0.667   0.833     0.0
+#   0.167  -0.333  -0.333     0.0
+#  -0.083   0.667   0.167     0.0
+#
+#Process finished with exit code 0
+
