@@ -13,8 +13,8 @@ import lineareqns
 def LU_decomposition(x): #Using Crout's method
     n=len(x) #no. of rows
     m=len(x[0]) #no. of columns
-    for i in range(n): #for rows
-        for j in range(m): #for columns
+    for j in range(m): #for rows
+        for i in range(n): #for columns
             if i<j: #upper-triangular ==> elements of U
                 for k in range(i): #loops from 0 to i-1
                     x[i][j]=float(x[i][j]-x[i][k]*x[k][j])
