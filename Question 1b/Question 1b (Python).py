@@ -1,5 +1,5 @@
-# Question 1a
-# log(x)-sin(x)=0
+# Question 1b
+# -x-cos(x)=0
 
 import math
 #importing python file containing all functions
