@@ -78,3 +78,20 @@ if read=='Y':
     else:
         print('Invalid Choice.\n')
 
+
+    ####################### OUTPUT ############################
+#Lower Guess : -1
+#Upper Guess : -0.5
+#Bracketing Complete. 
+#a=-1.0 and b=-0.5
+#Bisection method successful in given number of iterations.
+#Root = -0.739
+#Regular Falsi method successful in given number of iterations.
+#Root = -0.739
+#Guess for Newton Raphson : -0.6
+#Newton Raphson method successful in given number of iterations. 
+#Root = -0.739
+#Type Y if you wish to see files of Absolute Errors. Else, type N.
+#N
+#
+#Process finished with exit code 0
