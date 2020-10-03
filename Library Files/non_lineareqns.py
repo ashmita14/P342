@@ -1,4 +1,4 @@
-#Library containing functions required to solve various systems of linear equations
+#Library containing functions required to solve various systems of non-linear and polynomial equations
 
 import math
 # READ FILE
