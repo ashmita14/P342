@@ -21,3 +21,19 @@ for i in range(n): #calling laguerre and deflation function, repeatedly
     else:
         print(f'Root {i+1} not obtained in maximum allowed iterations.')
 
+
+######### OUTPUT ###########
+#Enter trial value 1 of root.
+#1.2
+#Root 1 = 1.0
+#Enter trial value 2 of root.
+#1.8
+#Root 2 = 2.0
+#Enter trial value 3 of root.
+#2.9
+#Root 3 = 3.0
+#Enter trial value 4 of root.
+#-3.1
+#Root 4 = -3.0
+#
+#Process finished with exit code 0
