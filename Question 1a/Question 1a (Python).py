@@ -72,3 +72,17 @@ if read=='Y':
     else:
         print('Invalid Choice.\n')
 
+
+################# OUTPUT ###################
+#Bracketing Complete. 
+#a=1.5 and b=2.5
+#Bisection method successful in given number of iterations.
+#Root = 2.219
+#Regular Falsi method successful in given number of iterations.
+#Root = 2.219
+#Newton Raphson method successful in given number of iterations. 
+#Root = 2.219
+#Type Y if you wish to see files of Absolute Errors. Else, type N.
+#N
+#
+#Process finished with exit code 0
