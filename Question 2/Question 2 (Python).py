@@ -1,7 +1,6 @@
 #Question 2 
 #Find roots of polynomial : x^4-3x^3-7x^2+27x-18
 
-
 import math
 #importing python file containing all functions
 import sys
