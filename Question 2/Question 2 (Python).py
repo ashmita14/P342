@@ -7,6 +7,8 @@ import sys
 sys.path.append('C:/ASHMITA/NISER Study/5th Semester/P342 - Computational Lab/APanda_Lib') #path of personal code library
 import non_lineareqns
 
+########################################################################################
+
 f=lambda x: pow(x, 4)-3*pow(x, 3)-7*pow(x, 2)+27*x-18 #given eqaution
 n=4 #order of equations
 X=[-18, 27, -7, -3, 1] #array of coefficients, from a_0 to a_4
