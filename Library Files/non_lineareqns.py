@@ -38,8 +38,6 @@ def double_derivative(f, x, h): # arguments = equation, point at which double de
     return(y)
 ###################################################################################
 
-#def polynomial(X, )
-
 # BRACKETING FUNCTION
 def bracketing(f, a, b, tot_itr): #arguments = function, guesses a and b, and total number of allowed iterations
     par = 1.5  # factor to be multiplied with (b-a)
