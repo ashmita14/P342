@@ -1,4 +1,6 @@
-#
+# Question 1
+# find the integration value of x/(x+1) in the range [1,3]
+# use Midpoint, Trapezoidal and Simpson with N = 5, 10, 25
 
 import math
 import sys
@@ -50,3 +52,18 @@ print('{0:20}'.format('Actual Value'),'{0:10}'.format('N'),'{0:20}'.format('Midp
       '{0:20}'.format(''),'{0:10}'.format(f'{5}'),'{0:20}'.format(f'{I_mid5}'), '{0:20}'.format(f'{I_trap5}'), '{0:20}'.format(f'{I_simp5}'),'\n'
       '{0:20}'.format(f'{I}'),'{0:10}'.format(f'{10}'),'{0:20}'.format(f'{I_mid10}'), '{0:20}'.format(f'{I_trap10}'), '{0:20}'.format(f'{I_simp10}'),'\n'
       '{0:20}'.format(''),'{0:10}'.format(f'{25}'),'{0:20}'.format(f'{I_mid25}'), '{0:20}'.format(f'{I_trap25}'), '{0:20}'.format(f'{I_simp25}'),'\n')
+
+
+
+
+
+############################### OUTPUT (copy pasted directly from the run window) #########################################
+#
+#Actual Value         N          Midpoint             Trapezoid            Simpson              
+#                     5          1.0133552721788017   1.3043650793650796   1.3068497693110697   
+#1.306852819          10         1.1584466908720912   1.3062285968245722   1.3068526253348838   
+#                     25         1.2471048221575478   1.3067528394240817   1.3068528144450458   
+#
+#
+#Process finished with exit code 0
+
