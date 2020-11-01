@@ -36,7 +36,7 @@ def trapezoidal(f, lower, upper, N, name):
 
 #########################################################################
 
-#Simpson Method
+#Simpson Method (for any N, I have divided the area under integration to 2N slices)
 def simpson(f, lower, upper, N, name):
     h=(upper-lower)/N
     I=0
