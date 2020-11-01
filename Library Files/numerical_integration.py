@@ -86,7 +86,7 @@ def simpson_error(f, lower, upper, err, name):
 
 ################################################################################
 
-#Monte Carlo Method
+#Monte Carlo Method for uniform probability distribution
 def montecarlo_uniform(f, lower, upper, N, name_I, name_err):
     F=0 #for storing the sum of f(X)
     F2=0 #for storing sum of [f(X)]^2
