@@ -1,4 +1,6 @@
-#
+# Question 3 
+# find the integration value of exp(-x^2) in range [0,1]
+# use Midpoint, Trapezoidal and Simpson method, with error less than or equal to 0.001
 
 import math
 import sys
@@ -30,3 +32,21 @@ print('{0:20}'.format('Actual Value'), '{0:10}'.format('Error'), '{0:20}'.format
       '{0:20}'.format('Simpson'), '\n'
                                   '{0:20}'.format(f'{I}'), '{0:10}'.format(f'{0.001}'), '{0:20}'.format(f'{I_mid}'),
       '{0:20}'.format(f'{I_trap}'), '{0:20}'.format(f'{I_simp}'), '\n')
+
+
+
+
+
+############## OUTPUT (copy pasted directly from run window) #################
+#
+#Please input the maximum value of second derivative of the function you want to integrate.
+#-2
+#Please input the maximum value of second derivative of the function you want to integrate.
+#-2
+#Please input the maximum value of fourth derivative of the function you want to integrate.
+#12
+#Actual Value         Error      Midpoint             Trapezoid            Simpson              
+#0.7468241            0.001      0.7065754272416654   0.7464612610366896   0.7468303914893448   
+#
+#
+#Process finished with exit code 0
