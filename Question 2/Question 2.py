@@ -22,3 +22,21 @@ for i in range(5):
     file=open(n, 'w') #refreshing file
     RK4_double(f1,f2,x0,y0,dy0,h,N,n)
     #
+
+    
+    
+    
+    
+################ OUTPUT ################
+#Enter value of h for eqn.
+#0.5
+#Enter value of h for eqn.
+#0.1
+#Enter value of h for eqn.
+#0.05
+#Enter value of h for eqn.
+#0.02
+#Enter value of h for eqn.
+#0.01
+#
+#Process finished with exit code 0
