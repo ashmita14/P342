@@ -31,3 +31,30 @@ for i in range(5):
     #
 
 
+    
+    
+    
+################ OUTPUT #####################
+#Enter value of h for eqn(1).
+#0.5
+#Enter value of h for eqn(1).
+#0.1
+#Enter value of h for eqn(1).
+#0.05
+#Enter value of h for eqn(1).
+#0.02
+#Enter value of h for eqn(1).
+#0.01
+#Enter value of h for eqn(2).
+#0.5
+#Enter value of h for eqn(2).
+#0.1
+#Enter value of h for eqn(2).
+#0.05
+#Enter value of h for eqn(2).
+#0.02
+#Enter value of h for eqn(2).
+#0.01
+#
+#Process finished with exit code 0
+
