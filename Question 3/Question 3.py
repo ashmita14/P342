@@ -1,5 +1,7 @@
 #Question 3
 # y''=y'+1
+# y(0)=1, y(1)=2(e-1)
+# e=2.71828
 
 import math
 import sys
