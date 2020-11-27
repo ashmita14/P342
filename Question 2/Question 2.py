@@ -1,4 +1,6 @@
 #Question 2
+#y''+y'=1-x 
+#y(0)=2, y'(0)=1
 
 import math
 import sys
@@ -20,7 +22,8 @@ for i in range(5):
     N=int((xmax-xmin)/h)
     n=f'x vs y for eqn, h={h} N={N}'
     file=open(n, 'w') #refreshing file
-    RK4_double(f1,f2,x0,y0,dy0,h,N,n)
+    y1=RK4_double(f1,f2,x0,y0,dy0,-h,N,n) # for -ve x values
+    y2=RK4_double(f1,f2,x0,y0,dy0,h,N,n) # for +ve x values
     #
 
     
