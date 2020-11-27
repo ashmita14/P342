@@ -1,4 +1,7 @@
 #Question 1
+# Equation 1 : y'=(y ln(y))/x ; y(2) = e
+# Equation 2 : y' =6-(2y)/x ; y(3)=1
+# e=2.71828
 
 import math
 import sys
