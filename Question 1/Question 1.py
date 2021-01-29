@@ -31,7 +31,7 @@ for j in range(5):
     print(
         f'For N={N}\nRMS Value of Radial Distance (R) = {Rrms}\nAverage Value of displacement along x-axis = {avgx}\nAverage Value of displacement along y axis ={avgy}\n')
 
-    append_file(nm1, f'{N} {Rrms}\n')
+    append_file(nm1, f'{math.sqrt(N)} {Rrms}\n')
 
 #######################################
 
