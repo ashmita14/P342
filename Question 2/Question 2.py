@@ -27,4 +27,33 @@ for i in range(12): #for 10 different values of N
     #
 
 
+    
+######################################## OUTPUT #######################################
+#Enter N. 
+#100
+#Enter N. 
+#500
+#Enter N. 
+#1000
+#Enter N. 
+#5000
+#Enter N. 
+#10000
+#Enter N. 
+#15000
+#Enter N. 
+#20000
+#Enter N. 
+#25000
+#Enter N. 
+#30000
+#Enter N. 
+#35000
+#Enter N. 
+#40000
+#Enter N. 
+#45000
+#
+#Process finished with exit code 0
+
 
