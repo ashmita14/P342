@@ -32,3 +32,19 @@ else :
     print('Integration Not Successful.')
     #
 print(f'Launch Velocity (value of slope at y=2 and t=0) = {slope}m/s^2')
+
+
+
+
+
+########## OUTPUT ##############
+#Enter guess value of slope of curve at x=0.01 when y(0)=2
+#30
+#Guess value of slope again, greater than the previous guess.
+#40
+#Enter the upper limit on the number of iteration for finding the correct value of the slope.
+#100
+#Integration Successful.
+#Launch Velocity (value of slope at y=2 and t=0) = 33.099999999999895m/s^2
+#
+#Process finished with exit code 0
