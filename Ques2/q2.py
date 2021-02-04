@@ -24,3 +24,12 @@ N=10
 #calling function
 I, h=simpson(T,low, up, N, nm)
 print(f'Value of T obtained by Simpson method = {I}')
+
+
+
+
+
+###### OUTPUT #########
+#Value of T obtained by Simpson method = 1.356630067470272
+#
+#Process finished with exit code 0
