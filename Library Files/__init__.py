@@ -12,3 +12,4 @@ from arrays_operations import *
 from differential_equations import *
 from _2D_random_walk import *
 from montecarlo_ellipsoidal import *
+from least_square_fit import *

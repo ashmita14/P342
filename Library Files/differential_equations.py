@@ -63,7 +63,7 @@ def boundary_dirichlet(F1,F2,x0,y0,yn,h,N,name):
             file = open(name, 'w')
             y = RK4_double(F1, F2, x0, y0, guess, h, N, name)
             #
-        if y==yn: return(True) #if guess gives perfect value of yn at xn, then solution is obtained
+        if y==yn: return(guess,True) #if guess gives perfect value of yn at xn, then solution is obtained
         else: guess_low=guess
         #
     elif y<yn: #if first guess is lesser than the actual value
@@ -81,7 +81,7 @@ def boundary_dirichlet(F1,F2,x0,y0,yn,h,N,name):
         else:
             guess_high = guess
         #
-    else: return(True) #if guess gives perfect value of yn at xn, then solution is obtained
+    else: return(guess,True) #if guess gives perfect value of yn at xn, then solution is obtained
     #
     #finding y values for high and low value of guess slope
     file = open(name, 'w')
@@ -98,7 +98,7 @@ def boundary_dirichlet(F1,F2,x0,y0,yn,h,N,name):
         i=i+1 #incrementing counter by 1
         #
     if round(abs(y-yn),4)>err: return (False) #solution not found
-    else: return(True) #solution found
+    else: return(guess,True) #solution found
 
 
 
