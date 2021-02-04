@@ -1,12 +1,5 @@
 #Library containing functions required to solve various systems of linear equations
 
-#READ FILE
-def read_matrix(x): # argument = a matrix
-    f=open(x,'r') #'r' ==> read only
-    X=[[int(num) for num in line.split(' ')] for line in f]
-    f.close()
-    return(X)
-
 def read_vector(x): # argument = vector
     f=open(x,'r') #'r' ==> read only
     X=[int(num) for num in f]
@@ -136,7 +129,7 @@ def forward_backward(a,b): #arguments = LU matrix and B matrix
             #
         #
     #BACKWARD SUBSTITUTION : UX=Y
-    for i in range(3,-1,-1): #i goes in decreasing order, from 3 to 0
+    for i in range(n-1,-1,-1): #i goes in decreasing order, from n-1 to 0
         for j in range(i+1,n): # i<j(as U is upper triangular)
             b[i]=b[i]-a[i][j]*b[j]
             #
