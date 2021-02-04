@@ -38,3 +38,30 @@ print(f'Fit Function for (ii) : \nln w(t)={Cii[0]}+({Cii[1]})t\nw(t)=exp({Cii[0]
 R2_ii=pearson(N)
 print(f'Value of Pearson`s r :\nr^2={R2_ii}\nr={math.sqrt(R2_ii)}\n')
 
+
+
+
+
+
+########## OUTPUT #########################
+#For First Fitting : 
+#
+#Fit Function for (i) : 
+#w(t)=2.029102564102564+(-0.47470862470862485)t
+#
+#Value of Pearson`s r :
+#r^2=0.9705318844905291
+#r=0.9851557666128383
+#
+#For Second Fitting :
+#
+#Fit Function for (ii) : 
+#ln w(t)=0.7902775293458721+(-0.39559617454855667)t
+#w(t)=exp(0.7902775293458721+(-0.39559617454855667)t)
+#
+#Value of Pearson`s r :
+#r^2=0.9982366554936271
+#r=0.9991179387307721
+#
+#
+#Process finished with exit code 0
