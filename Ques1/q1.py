@@ -28,3 +28,14 @@ else :
     print('Root value of x not found.')
     #
 
+
+    
+
+    
+########## OUTPUT ###############
+#Enter guess value of root.
+#5
+#Root value of x obtained at 4.965114231744277.
+#Value of Wein`s constant obtained = 0.002899010330738292
+#
+#Process finished with exit code 0
