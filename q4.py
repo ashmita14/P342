@@ -23,10 +23,12 @@ N=int((tn-t0)/h)
 
 nm=f'q4 integration values.txt'
 file=open(nm,'w')
-check=boundary_dirichlet(f1,f2,t0,y0,yn,h,N,nm)
+#calling function and receiving slope at y(t=0)
+slope,check=boundary_dirichlet(f1,f2,t0,y0,yn,h,N,nm)
 if check==True:
     print('Integration Successful.')
     #
 else :
     print('Integration Not Successful.')
     #
+print(f'Launch Velocity (value of slope at y=2 and t=0) = {slope}m/s^2')
