@@ -2,7 +2,7 @@
 
 import math
 import handling_files
-
+import derivatives
 #def polynomial(X, )
 
 # BRACKETING FUNCTION
@@ -75,7 +75,7 @@ def newton_raphson(f, a, max_itr, nm): #arguments ==> formula, trial root, maxim
             X[n]=a
         else:
             h=X[n-1]*0.001
-            X[n]=X[n-1]-(f(X[n-1])/derivative(f, X[n-1], h))
+            X[n]=X[n-1]-(f(X[n-1])/derivatives.derivative(f, X[n-1], h))
             #error = x_{n+1}-x_{n} o equivalently, x_{n}-x_{n-1}
             handling_files.append_file(nm, f'{n} {abs(X[n] - X[n - 1])}\n') #appends absolute error value with iteration number to file
             if abs(X[n]-X[n-1])<err: return(X[n], True)
@@ -90,8 +90,8 @@ def newton_raphson(f, a, max_itr, nm): #arguments ==> formula, trial root, maxim
 def laguerre(P, trial, max_itr, n): #arguments ==> formula, trial root, maximum iterations, name of file to store errors
     err=pow(10, -6)
     if round(P(trial), 6) !=0: #if trial is already the root
-        G = (derivative(P, trial, (0.001))) / P(trial)
-        H = G * G - double_derivative(P, trial, 0.001) / P(trial)
+        G = (derivatives.derivative(P, trial, (0.001))) / P(trial)
+        H = G * G - derivatives.double_derivative(P, trial, 0.001) / P(trial)
         if abs(G + math.sqrt((n - 1) * (n * H - G*G))) > abs(G - math.sqrt((n - 1) * (n * H - G*G))):
             a = n / (G + math.sqrt((n - 1) * (n * H - G*G)))
             #
