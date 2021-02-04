@@ -9,7 +9,7 @@ from APanda_Lib import *
 
 
 f= lambda x: (x-5)*math.exp(x)+5
-nm='Absolute Errors.txt'
+nm='Absolute Errors for q1.txt'
 file=open(nm, 'w') #cleaning file
 max=100 #setting max iterations to 100
 a=int(input('Enter guess value of root.\n'))
